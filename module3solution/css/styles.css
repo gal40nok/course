@@ -1,0 +1,94 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'BioRhyme', serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f9e2e6;
+  border-radius: 0;
+  border: 0;
+  border-color:#f9e2e6;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: pink/*#61122f #557c3e*/;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #61122f /*purple /*#222*/;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color:  pink;
+}
+/**** menu dropdown ****/
+.navbar-default .navbar-nav>li>a{
+  font-family: 'Lora', serif;
+  color:#61122f   /* #557c3e*/;
+  font-size: 1em;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 1px purple;*/
+  text-decoration: none;
+  text-align: center
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #61122f;
+    background-color: pink;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a:focus {
+	color: #61122f;
+	text-decoration: none;
+}
+/*** menu button***/
+.navbar-default .navbar-toggle {
+    border-color: pink;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: #f9e2e6;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: pink;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #61122f ;
+}
+/*** Body ***/
+#main-content h2{
+  font-family: 'BioRhyme', serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: pink;
+  /*text-align: center;*/
+}
+.row{
+	color: #f9e2e6;
+}
+h3{
+	text-align: center;
+	text-decoration: underline;
+	margin: 15px;
+}
+#to-top>a{
+	text-transform: underline;
+	color:#7dc0e8;
+}
+
+ 
