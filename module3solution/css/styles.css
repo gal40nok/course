@@ -20,11 +20,11 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: pink/*#61122f #557c3e*/;
+  color: pink;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 2px 2px 2px #61122f /*purple /*#222*/;
+  text-shadow: 2px 2px 2px #61122f ;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -40,10 +40,9 @@ body {
 /**** menu dropdown ****/
 .navbar-default .navbar-nav>li>a{
   font-family: 'Lora', serif;
-  color:#61122f   /* #557c3e*/;
+  color:#61122f   ;
   font-size: 1em;
   font-weight: bold;
-  /*text-shadow: 1px 1px 1px purple;*/
   text-decoration: none;
   text-align: center
 }
@@ -76,7 +75,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: pink;
-  /*text-align: center;*/
+  text-shadow: 1px 1px 1px white;
 }
 .row{
 	color: #f9e2e6;
